@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:padding="40dp"
+    android:orientation="vertical"
+    android:background="@drawable/layout">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:hint="android.studio@android.com"
+        android:textSize="16dp"
+        android:background="@drawable/background_white"
+        android:fontFamily="@font/alata"
+        android:textColorHint="@color/dream" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="subject"
+        android:paddingLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/background_white"
+        android:fontFamily="@font/alata"
+        android:textColorHint="@color/dream"
+        android:textSize="16dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="top"
+        android:hint="message"
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/background_white"
+        android:fontFamily="@font/alata"
+        android:textColorHint="@color/dream"
+        android:textSize="16dp"/>
+    <Button
+        android:layout_width="100dp"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="send"
+        android:fontFamily="@font/alata"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:background="@drawable/background_radius"/>
+</LinearLayout>

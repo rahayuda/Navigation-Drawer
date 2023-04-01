@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:background="@drawable/layout"
+    tools:context=".ui.gallery.GalleryFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alata"
+        android:textColor="@color/dream"
+        android:text="Horizontal Scroll View"
+        android:textSize="20dp"/>
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="115dp"
+            android:background="@drawable/background_box1"
+            android:fontFamily="@font/alata"
+            android:padding="20dp"
+            android:textColor="@color/dream"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="115dp"
+            android:background="@drawable/background_box3"
+            android:padding="20dp"
+            android:fontFamily="@font/alata"
+            android:textColor="@color/dream"
+            android:textSize="16dp"/>
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="115dp"
+            android:background="@drawable/background_box2"
+            android:padding="20dp"
+            android:fontFamily="@font/alata"
+            android:textColor="@color/dream"
+            android:textSize="16dp"/>
+
+    </LinearLayout>
+    </HorizontalScrollView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alata"
+        android:textColor="@color/dream"
+        android:text="Vertical Scroll View"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="176dp"
+                    android:layout_height="115dp"
+                    android:background="@drawable/background_box1"
+                    android:fontFamily="@font/alata"
+                    android:padding="20dp"
+                    android:textColor="@color/dream"
+                    android:textSize="16dp" />
+                <TextView
+                    android:layout_width="176dp"
+                    android:layout_height="115dp"
+                    android:background="@drawable/background_box2"
+                    android:padding="20dp"
+                    android:fontFamily="@font/alata"
+                    android:textColor="@color/dream"
+                    android:textSize="16dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="176dp"
+                    android:layout_height="115dp"
+                    android:background="@drawable/background_box3"
+                    android:fontFamily="@font/alata"
+                    android:padding="20dp"
+                    android:textColor="@color/dream"
+                    android:textSize="16dp" />
+                <TextView
+                    android:layout_width="176dp"
+                    android:layout_height="115dp"
+                    android:background="@drawable/background_box1"
+                    android:padding="20dp"
+                    android:fontFamily="@font/alata"
+                    android:textColor="@color/dream"
+                    android:textSize="16dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="176dp"
+                    android:layout_height="115dp"
+                    android:background="@drawable/background_box2"
+                    android:fontFamily="@font/alata"
+                    android:padding="20dp"
+                    android:textColor="@color/dream"
+                    android:textSize="16dp" />
+                <TextView
+                    android:layout_width="176dp"
+                    android:layout_height="115dp"
+                    android:background="@drawable/background_box3"
+                    android:padding="20dp"
+                    android:fontFamily="@font/alata"
+                    android:textColor="@color/dream"
+                    android:textSize="16dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="176dp"
+                    android:layout_height="115dp"
+                    android:background="@drawable/background_box1"
+                    android:fontFamily="@font/alata"
+                    android:padding="20dp"
+                    android:textColor="@color/dream"
+                    android:textSize="16dp" />
+                <TextView
+                    android:layout_width="176dp"
+                    android:layout_height="115dp"
+                    android:background="@drawable/background_box2"
+                    android:padding="20dp"
+                    android:fontFamily="@font/alata"
+                    android:textColor="@color/dream"
+                    android:textSize="16dp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
