@@ -1,20 +1,18 @@
-package com.example.layout;
+package com.example.layout
 
-import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-import android.view.View;
+import android.content.Intent
+import android.os.Bundle
+import android.support.v7.app.AppCompatActivity
+import android.view.View
 
-public class LoginActivity extends AppCompatActivity {
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
+class LoginActivity : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_login)
     }
 
-    public void login(View view) {
-        Intent login = new Intent(LoginActivity.this, MainActivity.class);
-        startActivity(login);
+    fun login(view: View?) {
+        val login = Intent(this@LoginActivity, MainActivity::class.java)
+        startActivity(login)
     }
 }

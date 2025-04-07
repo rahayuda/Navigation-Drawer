@@ -1,7 +1,5 @@
-package com.example.layout.ui.contact;
+package com.example.layout.ui.contact
 
-import android.arch.lifecycle.ViewModel;
+import android.arch.lifecycle.ViewModel
 
-public class ContactViewModel extends ViewModel {
-    // TODO: Implement the ViewModel
-}
+class ContactViewModel : ViewModel()

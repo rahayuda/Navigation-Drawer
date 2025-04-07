@@ -1,7 +1,5 @@
-package com.example.layout.ui.home;
+package com.example.layout.ui.home
 
-import android.arch.lifecycle.ViewModel;
+import android.arch.lifecycle.ViewModel
 
-public class HomeViewModel extends ViewModel {
-
-}
+class HomeViewModel : ViewModel()

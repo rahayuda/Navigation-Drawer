@@ -1,7 +1,5 @@
-package com.example.layout.ui.slideshow;
+package com.example.layout.ui.slideshow
 
-import android.arch.lifecycle.ViewModel;
+import android.arch.lifecycle.ViewModel
 
-public class SlideshowViewModel extends ViewModel {
-
-}
+class SlideshowViewModel : ViewModel()
